@@ -1,0 +1,186 @@
+body{
+background-color: rgb(0, 0, 0,0.3);
+}
+#container{
+    background-color: white;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 20px;
+
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+#close{
+    height: 25px;
+    width: 25px;
+    margin:1px;
+    border-radius: 15px;
+    background-color: white;
+}
+#close:hover{
+    height: 25px;
+    width: 25px;
+    margin:1px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0,0.3);
+}
+#img{
+   height: 30px;
+   width: 30px;
+}
+.login-with-google-btn {
+    transition: background-color .3s, box-shadow .3s;
+    width: 200px;
+      
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    height: 40px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    border-radius: 20px;
+
+}
+.login-with-google-btn:hover{
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    background-color: rgb(0, 0, 0,0.3);
+   
+}
+.login-with-google-btn:active {
+    background-color: #eeeeee;
+  }
+  
+  .login-with-google-btn:focus {
+    outline: none;
+    box-shadow: 
+      0 -1px 0 rgba(0, 0, 0, .04),
+      0 2px 4px rgba(0, 0, 0, .25),
+      0 0 0 3px #c8dafc;
+  }
+  
+  .login-with-google-btn:disabled {
+    filter: grayscale(100%);
+    background-color: #ebebeb;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    cursor: not-allowed;
+  }
+  .login-with-apple-btn {
+    transition: background-color .3s, box-shadow .3s;
+      
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    height: 40px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    width: 200px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGFSURBVDhPlZO9qsJAEIUnQRRBUCHYCnYB/7qAhSnFRzCggmDh0/gGNnZiaW1ta7TSLgkEFESwCCo4190M0Vz3st4PJsxO9pyQ3RnAf+B5Ht7vd1rF+crocrmgZVmYSCTwfD5TNc5XRr1eDwEAG40GVT6RGh0OB1RVFTVNw/V6TdVPFPZ4fi3Gfr8H3/ehWq3C7XaD6XQK7XYbXNeFXC4H9XodUqkU7Sa4HeE4DpqmyX+DRTqdxn6/z8/nKYzq+Xwe5/M5qUIioyAIUNf1aLMsWq0WPh4PUr8ZTSYToUAUhmHg9XolZYj6fMFZLpeUyRmNRpBMJmkVEhkdj0fK5BQKBcpeREbZbJYyOZvNhrIXkVG5XKZMzng85u0Rg84KV6uV8GD/ilKphLZtk/rt1thV1mo1oUgUrNt3ux2pf43IYrEQikTR7XZJFRIzYgyHQ6HwPYrFIp5OJ1KEfBixRut0OpjJZLDZbPJGnc1mOBgM+GhUKhXcbre0+4VwaBmsrCgKrWQA/AAg/nszFJUXpAAAAABJRU5ErkJgguEuoafBF+C3RDhc3/A++7d6BD7JVbW1UofbJGu/aQec/I4NL4Dv7j1fDhOUAMy6dg1BzpZs7z5gcDPNCE24g8DJp34Ak4yf4iUuMMFwqPAtBuc6eB+ET7sROkIrnJh52TN06xsiXJxROvXYIT9zEfO+ZXBBUT9fVFkVCreZRrdD6a7/fFFlIVH9r5yOSIf7GdSEDu4qyK8cWoJLOCodvu7U4A7TqXt/77mjwZ1r8yeUTr3vsKel+jo0o7RCaiUBX3hmjMNfaaj59BHtWTAbJmDTwKLXr+DmE+aVg698Sm5bgL6+4tLBd1mu2aHNMmo5cRFk9ynX7AQW6kJqGQnj2QcvoHpuMklBUK3cvAkfvUdoqVC9eS/49F/ab9W8bvwSurLbY/cqv6X6QBK9hK5aU7ov2bzy+/z5BXB1fx/QvS1U2NCfB4RQh1sBHQ5FOvbmO2gmhO3swb7hozftZUJrKpdKh7tXxfM1lbWHX6GZzzNwC4XZxjjhcKK/XTR8wHqNXTh5wbn08BPBfzECfb18EorQS9CY+JHHNnFpzZ+tNSP9SQeuW1TWenA9yyMM9y53+BnjXwTzwbZry3PufaloqvkG55EzWTyDz/L7ZMXezOVCrPla+ez306lhV3YNFW+40bnffrWdDdfefZN14M6ZBv3QZllblUXwKFWwg2g31HU9DEXC/4ucm6bPb1AYvum/eR999Bv0B49NNJcJ9HHGAAAAAElFTkSuQmCC);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    border-radius: 20px;
+
+}
+.login-with-apple-btn:hover{
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    background-color: rgb(0, 0, 0,0.3);
+   
+}
+.login-with-apple-btn:active {
+    background-color: #eeeeee;
+  }
+  
+  .login-with-apple-btn:focus {
+    outline: none;
+    box-shadow: 
+      0 -1px 0 rgba(0, 0, 0, .04),
+      0 2px 4px rgba(0, 0, 0, .25),
+      0 0 0 3px #c8dafc;
+  }
+  
+  .login-with-apple-btn:disabled {
+    filter: grayscale(100%);
+    background-color: #ebebeb;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    cursor: not-allowed;
+  }
+ h6{
+  font-family: sans-serif;
+  margin: 100px auto red;
+  text-align: center;
+  font-size: 10px;
+  max-width: 600px;
+  position: relative;
+
+ }
+ h6:before{
+  content: "";
+  display:block;
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  background: rgba(94, 77, 77, 0.233);
+  left: 0;
+  top: 50%;
+  
+
+ }
+ 
+::placeholder {
+  color:rgb(0, 0, 0,0.5);
+  font-size: medium;
+  font-weight: bolder;
+  text-align: left;
+}
+ 
+ h6:after{
+  content: "";
+  display:block;
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  background: rgba(94, 77, 77, 0.233);
+  right: 0;
+  top: 50%;
+  
+ }
+#button{
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: rgb(33, 31, 31);
+color: #eeeeee;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+}
+#button2{
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+
+
+}
+div.container{
+  margin:5px;
+  padding:5px;
+  background-color: green;
+  height: 80vh;
+  width: 40vw;
+  overflow: auto;
+  text-align:justify;
+}
